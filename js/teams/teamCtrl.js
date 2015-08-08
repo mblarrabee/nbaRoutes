@@ -20,7 +20,7 @@ app.controller('teamCtrl', function($scope, $routeParams, $route, teamService, t
         $scope.homeTeam = "Utah Jazz";
         $scope.logoPath = "../../images/jazz-logo.png";
     }else if($route.current.params.team === "losangeleslakers"){
-        $scope.homeTeam = "Los Angeles Lakers - aka: 'The Enemy'";
+        $scope.homeTeam = "Los Angeles Lakers";
         $scope.logoPath = "../../images/lakers-logo.png";
     }else if($route.current.params.team === "miamiheat"){
         $scope.homeTeam = "Miami Heat";
